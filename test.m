@@ -1,0 +1,15 @@
+[V, delta, P, Q, losses, injectedPower] = PowerFlow();
+disp('Αποτελέσματα χωρίς γραμμή μεταφοράς:');
+disp('Tάσεις:');
+disp(V);
+disp('Γωνίες:');
+disp(delta);
+disp('Ισχύς:');
+disp('P:');
+disp(P);
+disp('Q:');
+disp(Q);
+disp('Απώλειες:');
+disp(losses);
+disp('Συνολική εγχύσεις ισχύος στον ζυγό αναφοράς:');
+disp(injectedPower);
